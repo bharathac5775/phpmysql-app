@@ -4,18 +4,18 @@ services:
        build:
                context: ./php/online-shopping-system
                dockerfile: Dockerfile_update_webapp
-       image: sreedocker123/bdaecommphp:latest
-       container_name: php_app
+       image: neehar2601/bdaecommphp:latest
+       container_name: php_app_n
        depends_on:
          - db
        ports:
-         - 8008:80
+         - 8018:80
   db:
           build:
                   context: ./php/online-shopping-system/database
                   dockerfile: Dockerfile_db
-          image: sreedocker123/bdaecommdb:latest
-          container_name: mysqli
+          image: neehar2601/bdaecommdb:latest
+          container_name: mysqli_n
           # command: --default-authentication-plugin=mysql_native_password
           restart: always
           environment:
