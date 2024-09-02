@@ -1,6 +1,6 @@
 <?php
 
-$servername = "mysqli_n";
+$servername = "mysqli";
 $username = "msois";
 $password = "Msois@123";
 $db = "myecommerce";
