@@ -1,8 +1,8 @@
 <?php
 
 $servername = "mysqli";
-$username = "msois";
-$password = "Msois@123";
+$username = "root";
+$password = "myecommerce";
 $db = "myecommerce";
 
 // Create connection
