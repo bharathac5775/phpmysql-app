@@ -5,7 +5,7 @@ services:
                context: ./php/online-shopping-system
                dockerfile: Dockerfile_update_webapp
        image: neehar2601/bdaecommphp:latest
-       container_name: php_app_n
+       container_name: php_app
        depends_on:
          - db
        ports:
@@ -15,7 +15,7 @@ services:
                   context: ./php/online-shopping-system/database
                   dockerfile: Dockerfile_db
           image: neehar2601/bdaecommdb:latest
-          container_name: mysqli_n
+          container_name: mysqli
           # command: --default-authentication-plugin=mysql_native_password
           restart: always
           environment:
