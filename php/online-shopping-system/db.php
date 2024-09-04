@@ -1,6 +1,6 @@
 <?php
 
-$servername = "mysqli";
+$servername = "localhost";
 $username = "root";
 $password = "myecommerce";
 $db = "myecommerce";
