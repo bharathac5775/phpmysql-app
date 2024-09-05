@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost";
-$username = "root";
-$password = "myecommerce";
+$username = "msis";
+$password = "Msois@123";
 $db = "myecommerce";
 
 // Create connection
